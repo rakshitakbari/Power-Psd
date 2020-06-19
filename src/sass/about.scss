@@ -1,0 +1,48 @@
+#about{
+    padding: 0px;
+    background-image: url(../images/services-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    overflow: hidden;
+    .service-item{
+        text-align: center;
+        margin: 0px -15px;
+        padding: 120px 45px;
+        .icon {
+            width: 70px;
+            height: 70px;
+            display: inline-block;
+            text-align: center;
+            line-height: 74px;
+            background-color: transparent;
+        }
+        h4 {
+            margin-top: 45px;
+            margin-bottom: 20px;
+            font-size: 22px;
+            font-weight: 700;
+            color: $white;
+            text-transform: uppercase;
+        }
+        p {
+            margin-bottom: 0px;
+            color: $white;
+            font-size: 16px;
+            line-height: 26px;
+            letter-spacing: 0.25px;
+            font-weight: 300;
+            margin: 0 0 10px;
+        }
+    }
+    .first-service {
+        background-color: rgba(242, 116, 95, 0.75);
+    }
+    .second-service {
+        background-color: rgba(54, 62, 80, 0.75);
+    }
+    .third-service {
+        background-color: rgba(70, 186, 226, 0.75);
+    }
+}

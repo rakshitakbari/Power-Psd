@@ -1,0 +1,95 @@
+#second{
+    ul {
+        list-style: none;
+        margin: 0px; 
+        padding-left: 0;
+    }
+}
+@media (min-width: 992px){
+    .col-md-15 {
+        max-width: 30%;
+        float: left;
+    }
+}    
+.what-we-do{
+    .tabs{
+        display: flex;
+        li{
+                a {
+                text-decoration: none;
+                color: #121212;
+            }
+        }
+        .active{
+            .list-item {
+                background-color: #f2745f!important;
+                color: $white!important;
+                .icon {
+                    background-color: $white;
+                }
+            }
+        }
+        .list-item {
+            background-color: #f4f4f4;
+            text-align: center;
+            padding: 40px 0px;
+            margin: 15px 0px;
+            transition: all 0.5s;
+            .icon {
+                width: 90px;
+                height: 90px;
+                border-radius: 50%;
+                display: inline-block;
+                text-align: center;
+                line-height: 90px;
+                background-color: transparent;
+            }
+            h4 {
+                margin-top: 20px;
+                margin-bottom: 0px;
+                font-size: 17px;
+                font-weight: 700;
+                text-transform: uppercase;
+                line-height: 1.1;
+            }
+        }
+    }
+    .tab-content-services {
+        margin-top: 60px;
+        .left-text{
+            h4 {
+                font-size: 22px;
+                text-transform: uppercase;
+                font-weight: 700;
+                margin-top: 0px;
+                margin-bottom: 20px;
+            }
+            p {
+                color: #7a7a7a;
+                font-size: 16px;
+                line-height: 26px;
+                letter-spacing: 0.25px;
+                font-weight: 300;
+                margin: 0 0 10px;
+            }
+            .primary-button {
+                margin-top: 35px;
+                margin-bottom: 50px;
+                a {
+                    padding: 13px 20px;
+                    letter-spacing: 0.5px;
+                    background-color: $theme-color;
+                    color: $white;
+                    text-transform: uppercase;
+                    font-size: 13px;
+                    font-weight: 700;
+                    text-decoration: none;
+                }
+            }
+        }
+        .right-image img {
+            width: 100%;
+            overflow: hidden;
+        }
+    }
+}    
